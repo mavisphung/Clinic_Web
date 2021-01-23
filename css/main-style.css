@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background: #F4F3F3}
+.dropdown-menu{ background: #056CB6}
+.dropdown-item{ color:#fff; border-bottom: 1px solid #ccc}
+.dropdown-item:hover{ background: #FFC113}
+.mega{ width: 800%; left: -400%}
+footer .nav-link{ color: #fff}footer .nav-link:hover{ color:  #FFC113}
+@media (max-width:768px){
+	.mega{ width: 100%; left: 0}
+}
+
+.caption-in-img {
+	position: absolute;
+	width: 30%;
+	left: 20%;
+	top: 20%;
+	text-align: left;
+}
