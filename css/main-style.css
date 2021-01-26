@@ -6,6 +6,26 @@ body{ background: #F4F3F3}
 .dropdown-item:hover{ background: #FFC113}
 .mega{ width: 800%; left: -400%}
 footer .nav-link{ color: #fff}footer .nav-link:hover{ color:  #FFC113}
+
+
+.tieudetrang {
+	color: #ffffff;
+	min-height: 350px;
+	width: 100%;
+	padding-top: 50px;
+	background: url('../images/pageheader.jpg')
+}
+
+aside .nav-link {
+	background: url("../images/mt-xanh.png") no-repeat left center;
+	padding-left: 20px;
+}
+
+aside .nav-link:hover {
+	background: url("../images/mt-vang.png") no-repeat left center;
+	color: #979600;
+}
+
 @media (max-width:768px){
 	.mega{ width: 100%; left: 0}
 }
